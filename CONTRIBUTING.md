@@ -33,18 +33,23 @@ Simply open the new file and fill in values, then send it to me.
 
 It's okay if you don't use them all.  Every line helps.
 
-### I found a bug, or I have a feature request.
+### I found a bug.
+
+Please mention your distro, Cinnamon version, and applet version.
+
+### I have a feature request, or code changes.
 
 Squash your changes into a single commit, if possible.  I will probably make some adjustments and ask you for a code review.
 
 I can't guarantee I will respond to these issues promptly, or ever. Feel free to @mention me in the issue comments if too much time has passed.
 
-#### Style guide
+###### Style guide
 
 New code should have:
 
 - [no semicolons][]
 - [commas first][]
+- 2-space indentation
 - short (LoC) functions with a consistent level of abstraction
 
 
