@@ -19,7 +19,7 @@ I can normally merge your changes and release a new version within three days.
 
 I'm happy to provide new language templates.  Ask and you shall receive.
 
-To do it yourself, install the `gettext` package and run `msginit`, passing 
+To make one yourself, install the `gettext` package and run `msginit`, passing 
 
 - the correct locale code for your language `-l` (ex: `ko_KR` is Korean)
 - the matching `.po` output filename `-o` (ex: `ko.po`)
@@ -51,6 +51,7 @@ New code should have:
 - [commas first][]
 - 2-space indentation
 - short (LoC) functions with a consistent level of abstraction
+- [well-formatted commit messages][git-log-fmt]
 
 
 <a id="fn-1">¹</a> _By the time you read this, the [CommonMark][] standard will hopefully be used everywhere._ <a href="#fnref-1" title="back to content">&#160;&#8617;</a>
@@ -62,3 +63,4 @@ New code should have:
 [issue tracker]: https://github.com/mockturtl/cinnamon-weather/issues
 [no semicolons]: http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding
 [commas first]: https://gist.github.com/isaacs/357981
+[git-log-fmt]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
